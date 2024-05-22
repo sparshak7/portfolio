@@ -87,7 +87,7 @@ const Contact = () => {
         <h3 className="antialiased text-md">
           Or you can contact me in any of these
         </h3>
-        <div className="items-center gap-8 hidden lg:flex">
+        <div className="items-center gap-8 flex">
           <SocialLinks
             link="https://github.com/sparshak7"
             icon={<BsGithub className="size-5" />}
