@@ -2,8 +2,6 @@
 
 Welcome to my personal portfolio website, built with modern web technologies to showcase my projects and skills.
 
-[![Vercel Status](https://vercel.com/api/v1/badges/your-badge-id/deploy-status)](https://vercel.com/your-username/your-project/deploys)
-
 Hosted at: [sparshak-nag-portfolio.vercel.app](https://sparshak-nag-portfolio.vercel.app/)
 
 GitHub Repository: [sparshak7/portfolio](https://github.com/sparshak7/portfolio)
