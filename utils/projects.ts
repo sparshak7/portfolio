@@ -20,11 +20,11 @@ export const project = [
   {
     name: "CommerceStop",
     description:
-      "A dynamic, responsive and SEO-optimised e-commerce website built on RSA architecture, facilitating seamless commerce with admin panel and payment checkout.",
-    image: "/proj2.jpg",
+      "A dynamic, responsive and SEO-optimised e-commerce website built on RSA architecture, facilitating seamless commerce.",
+    image: "/proj2.png",
     stack: ["NextJS", "Supabase", "Prisma ORM", "Stripe", "Shadcn/ui"],
-    link: "www",
-    extra: true,
+    link: "https://commerce-stop.vercel.app/",
+    extra: false,
   },
   {
     name: "Starfish Algorithm - PSO",
