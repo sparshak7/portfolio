@@ -6,7 +6,12 @@ import {motion} from "framer-motion"
 
 const Hero = () => {
   return (
-    <motion.div className="h-full" initial={{x: "-300vh"}} animate={{x:"0%"}} transition={{duration: 1}}>
+    <motion.div
+      className="h-full"
+      initial={{ x: "-300vh" }}
+      animate={{ x: "0%" }}
+      transition={{ duration: 1 }}
+    >
       <div className="h-full flex flex-col lg:flex-row px-12 py-2 gap-4">
         <div className="h-1/2 relative lg:h-full lg:w-1/2">
           <Image
@@ -25,7 +30,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-4">
             <Link
-              href="https://drive.google.com/file/d/1b_W6dXdfB5ngOoNbD-UoZEgOkbpttR9T/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1nvQ385Q-cRpCMe3l8rSZSTVoPK_N61A1/view"
               target="_blank"
             >
               <button className="p-2 ring-2 bg-accent text-secondary-foreground ring-cyan-400 rounded-2xl hover:opacity-75">

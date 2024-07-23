@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ReactNode, useState } from "react";
-import { BsDiscord, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { Great_Vibes } from "next/font/google";
 import { links } from "@/utils/menulinks";
 import {motion} from "framer-motion"
@@ -57,10 +57,6 @@ const Navbar = () => {
           <SocialLinks
             link="https://www.instagram.com/exzeitgeist/"
             icon={<BsInstagram className="size-5" />}
-          />
-          <SocialLinks
-            link="https://discord.com/users/zeitgeist7"
-            icon={<BsDiscord className="size-5" />}
           />
         </div>
       )}

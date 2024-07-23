@@ -8,7 +8,7 @@ import { Button } from "./ui/button";
 import { FormEvent, useRef, useState } from "react";
 import emailjs from "@emailjs/browser"
 import { SocialLinks } from "./Navbar";
-import { BsDiscord, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
   const [success, setSuccess] = useState(false)
@@ -99,10 +99,6 @@ const Contact = () => {
           <SocialLinks
             link="https://www.instagram.com/exzeitgeist/"
             icon={<BsInstagram className="size-5" />}
-          />
-          <SocialLinks
-            link="https://discord.com/users/zeitgeist7"
-            icon={<BsDiscord className="size-5" />}
           />
         </div>
       </div>

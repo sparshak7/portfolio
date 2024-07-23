@@ -34,7 +34,7 @@ const About = () => {
               ii. 95% in 12th ISC Boards
             </h3>
             <h3 className="p-2 text-lg tracking-wide">
-              iii. 9.069 CGPA (till 5th sem)
+              iii. 8.996 CGPA (till 6th sem)
             </h3>
           </div>
         </div>

@@ -32,7 +32,7 @@ const Skills = () => {
           <h1 className="antialiased text-4xl font-bold">Achievements</h1>
           <div className="flex flex-col gap-2">
             <h3 className="p-2 text-lg tracking-wide">
-              i. 250+ problems on
+              i. 400+ problems on
               <span>
                 <Link
                   href="https://leetcode.com/u/zeitgeist_7/"
@@ -47,8 +47,29 @@ const Skills = () => {
             <h3 className="p-2 text-lg tracking-wide">
               ii. Highest rating 1555 in
               <span>
-                <Link href="https://www.codechef.com/users/sparshak_nag7" target="_blank" className="text-red-500"> Codechef</Link>
+                <Link
+                  href="https://www.codechef.com/users/sparshak_nag7"
+                  target="_blank"
+                  className="text-red-500"
+                >
+                  {" "}
+                  Codechef
+                </Link>
               </span>
+            </h3>
+          </div>
+        </div>
+        <div className="flex flex-col gap-6 mb-12 py-4">
+          <h1 className="antialiased text-4xl font-bold">Certifications</h1>
+          <div className="flex flex-col gap-2">
+            <h3 className="p-2 text-lg tracking-wide">
+              i. The Web Development Bootcamp by Angela Yu on Udemy
+            </h3>
+            <h3 className="p-2 text-lg tracking-wide">
+              ii. Mastering C++ DSA by Abdul Bari on Udemy
+            </h3>
+            <h3 className="p-2 text-lg tracking-wide">
+              iii. Fullstack VAT Training by ESC Technologies
             </h3>
           </div>
         </div>
