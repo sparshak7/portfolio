@@ -30,7 +30,7 @@ const Hero = () => {
           </p>
           <div className="flex gap-4">
             <Link
-              href="https://drive.google.com/file/d/1nvQ385Q-cRpCMe3l8rSZSTVoPK_N61A1/view"
+              href="https://drive.google.com/file/d/1WM5Sg43mCNNnLZD-6AjMzecy_94xGaxO/view?usp=sharing"
               target="_blank"
             >
               <button className="p-2 ring-2 bg-accent text-secondary-foreground ring-cyan-400 rounded-2xl hover:opacity-75">
